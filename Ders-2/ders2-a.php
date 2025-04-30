@@ -69,7 +69,7 @@ $deger=120;
 $ekdeger=72;
 echo "<br>Sonuç: $deger * $ekdeger = " . $deger *=$ekdeger;
 echo "<br>Değer Değişkenin İçeriği: $deger";
-echo "<br>Değer Değişkenin Yeni İçeriği:" . $deger-=123;
+echo "<br>Değer Değişkenin Yeni İçeriği:" . $deger*=123;
 echo "<br>Değer Değişkenin Son İçeriği: $deger";
 
 

@@ -25,7 +25,7 @@
 <?php
 
 $kullanici_adi      =@$_REQUEST["username"];
-$kullanici_sifresi  =@$_POST["password"];
+$kullanici_sifresi  =@$_REQUEST["password"];
 echo  "Formdan Kullanıcı Adı: $kullanici_adi <br>";
 echo  "Formdan Kullanıcı Şifresi: $kullanici_sifresi <br>";
 if ($kullanici_adi== "Ali" AND $kullanici_sifresi="123" ) {
